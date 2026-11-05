@@ -21,13 +21,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Display original array
     printf("\nOriginal array: ");
     for (i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
 
-    // Insert a value
+
     printf("\n\nEnter value to insert: ");
     scanf("%d", &value);
 
@@ -50,7 +49,7 @@ int main() {
         }
     }
 
-    // Delete a value
+
     printf("\n\nEnter value to delete: ");
     scanf("%d", &value);
 
